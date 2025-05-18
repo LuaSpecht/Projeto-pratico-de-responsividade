@@ -40,7 +40,17 @@ body{
 }
 
 
-@media (min-width: 480px){
+@media (min-width: 481px){
+  .all-boxes{
+    flex-wrap: wrap;
+  }
+  .country-box{
+    width:30%;
+    height: 300px;
+  }
+}
+
+@media (min-width: 780px){
   .all-boxes{
     flex-wrap: wrap;
   }
@@ -53,6 +63,5 @@ body{
 @media (min-width: 1278px){
   .all-boxes{
     flex-wrap: nowrap;
-
   }
 }
